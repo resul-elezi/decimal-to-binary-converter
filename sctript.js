@@ -1,8 +1,9 @@
 "use strict";
 
 const callStack = [
-
-];
+    'a(): returns "freeCodeCamp " + b()',
+    'b(): returns "is " + c()'
+  ];
 
 const a = () => {
     return "freeCodeCamp " + b();
