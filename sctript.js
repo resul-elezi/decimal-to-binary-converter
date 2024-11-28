@@ -5,7 +5,9 @@ const convertBtn = document.getElementById("convert-btn");
 const result = document.getElementById("result");
 
 const decimalToBinary = (input) => {
-    
+    if(input === 0) {
+      return "";
+    }
   };
 
 const checkUserInput = () => {
