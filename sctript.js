@@ -12,6 +12,7 @@ const countDownAndUp = (number) => {
     return;
   } else {
     countDownAndUp(number - 1);
+    console.log(number);
   }
 };
 
