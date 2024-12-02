@@ -17,7 +17,6 @@ const checkUserInput = () => {
         alert("Please provide a decimal number greater than or equal to 0");
       return;
     }
-
     result.textContent = decimalToBinary(parseInt(numberInput.value));
     numberInput.value = "";
 };
