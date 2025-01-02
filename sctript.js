@@ -32,7 +32,11 @@ const showAnimation = () => {
 
   animationData.forEach((obj) => {
     setTimeout(() => {
-      animationContainer.innerHTML += ``;
+      animationContainer.innerHTML += `
+      <p id="${obj.inputVal}" class="animation-frame">
+
+        </p>
+      `;
     }, obj.addElDelay);
   });
 };
