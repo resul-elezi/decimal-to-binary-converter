@@ -1,5 +1,3 @@
-"use strict";
-
 const numberInput = document.getElementById("number-input");
 const convertBtn = document.getElementById("convert-btn");
 const result = document.getElementById("result");
@@ -58,7 +56,7 @@ const showAnimation = () => {
   });
 
   setTimeout(() => {
-  result.textContent = decimalToBinary(5);
+result.textContent = decimalToBinary(5);
   }, 20000);
 };
 
