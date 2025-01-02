@@ -14,22 +14,26 @@ const decimalToBinary = (input) => {
 
 const showAnimation = () => {};
 const checkUserInput = () => {
-    if (!numberInput.value || 
-        isNaN(parseInt(numberInput.value)) || 
-        parseInt(numberInput.value) < 0) {
-        alert("Please provide a decimal number greater than or equal to 0");
-      return;
-    }
-    if(parseInt(numberInput.value) === 5) {
-      showAnimation();
-      return;
-    }
-    result.textContent = decimalToBinary(parseInt(numberInput.value));
-    numberInput.value = "";
+  const inputInt = parseInt(numberInput.value);
+
+  if (!numberInput.value || isNaN(inputInt) || inputInt < 0) {
+    alert("Please provide a decimal number greater than or equal to 0");
+    return;
+  }
+
+  if (inputInt === 5) {
+    showAnimation();
+    return;
+  }
+
+  result.textContent = decimalToBinary(inputInt);
+  numberInput.value = "";
 };
+
 convertBtn.addEventListener("click", checkUserInput);
+
 numberInput.addEventListener("keydown", (e) => {
-    if (e.key === "Enter") {
-        checkUserInput();
-    };
-  });
+  if (e.key === "Enter") {
+    checkUserInput();
+  }
+});
