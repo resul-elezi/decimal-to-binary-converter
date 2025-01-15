@@ -41,8 +41,7 @@ const showAnimation = () => {
       animationContainer.innerHTML += `
         <p id="${obj.inputVal}" class="animation-frame">
           decimalToBinary(${obj.inputVal})
-        </p>
-      `;
+        </p>`;
     }, obj.addElDelay);
 
     setTimeout(() => {
