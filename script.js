@@ -32,10 +32,8 @@ const decimalToBinary = (input) => {
     return decimalToBinary(Math.floor(input / 2)) + (input % 2);
   }
 };
-
 const showAnimation = () => {
   result.innerText = "Call Stack Animation";
-
   animationData.forEach((obj) => {
     setTimeout(() => {
       animationContainer.innerHTML += `
