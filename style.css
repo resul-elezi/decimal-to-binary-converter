@@ -60,7 +60,6 @@ h2 {
   padding: 0.3rem;
   width: 100%;
 }
-
 .output-container {
   margin-inline: auto;
   width: clamp(320px, 50vw, 460px);
