@@ -64,7 +64,6 @@ h2 {
   margin-inline: auto;
   width: clamp(320px, 50vw, 460px);
 }
-
 #result {
   display: flex;
   align-items: center;
