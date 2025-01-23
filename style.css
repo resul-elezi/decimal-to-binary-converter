@@ -10,7 +10,6 @@
   --dark-blue: #1b1b32;
   --orange: #f1be32;
 }
-
 body {
   display: flex;
   flex-direction: column;
