@@ -76,7 +76,6 @@ h2 {
   border: 2px solid var(--orange);
   border-radius: 2px;
 }
-
 #animation-container {
   display: flex;
   flex-direction: column-reverse;
