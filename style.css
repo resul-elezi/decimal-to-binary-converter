@@ -86,7 +86,6 @@ h2 {
   border: 2px dashed var(--orange);
   padding: 1rem;
 }
-
 .animation-frame {
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
     helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
@@ -96,17 +95,14 @@ h2 {
   font-size: 1.2rem;
   text-align: center;
 }
-
 @media screen and (min-width: 36em) {
   body {
     font-size: 1rem;
   }
-
   .input-container {
     flex-direction: row;
     width: unset;
   }
-
   .number-input {
     width: unset;
   }
